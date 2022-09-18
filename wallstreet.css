@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to right,rgb(79, 110, 146),rgb(92, 154, 122));
+    margin: 0;
+    text-align: center;
+
+    
+}
+#menu{
+
+    position: fixed;
+    background-color: rgb(137, 147, 154);
+    margin-top: 0px;
+    
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+#Home{
+    margin-top: 80px;
+}
+.Links{
+    /* inline list */
+    display: inline;
+    font-size:20px ;
+    padding-right: 20px;
+}
+h1{
+    color: rgb(4, 43, 90);
+    border: 2px solid;
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 10px;
+    border-color: rgb(165, 7, 7);
+    
+}
+/* Scroll Behaviour */
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+        
+}
+/* Pseudo class 
+ 
+syntax:pseudo-class{
+    property:value;
+ */
+ a:hover{
+    font-size: 40px;
+    color: blueviolet;
+ }
+ /* to make heading position sticky */
+ #wallst{
+    position: sticky;
+    top: 60px;
+    background-color: rgb(51, 93, 80);
+ }
